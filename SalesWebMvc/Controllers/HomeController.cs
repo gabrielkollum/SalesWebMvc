@@ -13,7 +13,8 @@ namespace SalesWebMvc.Controllers {
         }
 
         public IActionResult About() {
-            ViewData["Message"] = "Your application description page.";
+            ViewData["Message"] = "Sales Web application from C#.";
+            ViewData["Builder"] = "Esse sistema foi contruido por: Gabriel Oliveira dos Santos.";
 
             return View();
         }
